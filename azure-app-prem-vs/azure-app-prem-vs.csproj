@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_prem_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/97889651-a48c-46a1-a774-01fe61d2fea5/resourcegroups/az-course-rg/providers/microsoft.insights/components/azure-app-prem-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>f268a3d2-6d8b-4860-b278-77ba7396db29</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
