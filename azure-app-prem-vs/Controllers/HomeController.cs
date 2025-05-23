@@ -21,6 +21,11 @@ namespace azure_app_prem_vs.Controllers
             return View();
         }
 
+        public IActionResult DeploymentSlots()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
