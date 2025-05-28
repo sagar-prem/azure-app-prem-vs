@@ -364,3 +364,6 @@ FodyWeavers.xsd
 /azure-app-prem-vs/Properties/ServiceDependencies/local/appInsights1.arm.json
 /azure-app-prem-vs/Properties/serviceDependencies.json
 /azure-app-prem-vs/Properties/serviceDependencies.local.json
+/Blazor.AzureCosmosDb.Demo.Data/wwwroot
+/Mvc.StorageAccount.Demo/wwwroot
+/Mvc.StorageAccount.Demo/wwwroot/css/site.css
